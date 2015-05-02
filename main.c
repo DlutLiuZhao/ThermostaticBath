@@ -2,18 +2,13 @@
 #include"delay.h"
 #include "lcd12864.h"
 #include "uart.h"
+#include "intrins.h"
 
 void main()
 {
-//	lcd_init();
-//	lcd_pos(0, 0);
-//	lcd_write_string("ΑυξΘ");
-//	lcd_pos(1, 0);
-//	lcd_write_string("ΑυξΘ");
-//	lcd_pos(2, 0);
-//	lcd_write_string("ΑυξΘ");
-//	lcd_pos(3, 0);
-//	lcd_write_string("ΑυξΘ");
+	lcd_init();
+	lcd_pos(0, 0);
+	lcd_write_string("ΞÒ½ΠΑυξΘ£Ί1234‘ζ");
 	UART_Init();
 	while (1) 
 	{
